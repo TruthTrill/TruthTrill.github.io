@@ -1,0 +1,55 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    font-size: 62.5;
+}
+
+a {
+    color: yellow
+}
+
+img {
+    max-width: 20%;
+    height: auto;
+    display: block;
+}
+
+#tribute-info {
+    background-image: linear-gradient(to bottom right, black, rgb(121, 0, 0));
+}
+
+figure {
+    color: lightgrey;
+    background-image: linear-gradient(to bottom left, yellow, rgb(231, 112, 0), darkred);
+    margin: 0 0 0 0;
+    padding: 3% 0 2% 0;
+}
+
+header {
+    opacity: linear-gradient(to bottom, 20%, 90%);
+    color: darkred;
+    background-image: linear-gradient(to bottom right, white, lightgrey);
+    margin: 0%;
+    padding: 5px;
+}
+
+#members-table {
+    color: whitesmoke;
+    background-image: linear-gradient(to bottom, rgb(121, 0, 0), purple, black);
+    /*    align: center; */
+    width: 100%;
+    padding: 1%;
+}
+
+#members-table td+tr {
+    align-self: center;
+}
+
+#youtube-video {
+    background-image: linear-gradient(to bottom right, rgb(121, 0, 0), black);
+}
+
+nav ul {
+    list-style: none;
+    color: orangered;
+}
