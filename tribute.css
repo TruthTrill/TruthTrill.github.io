@@ -53,3 +53,14 @@ nav ul {
     list-style: none;
     color: orangered;
 }
+
+#tribute-info {
+    color: white;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+body {
+    height: 100%;
+}
