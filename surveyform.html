@@ -1,3 +1,4 @@
+la
 <!DOCTYPE html>
 <html lang="en">
 
@@ -13,7 +14,7 @@
         <p id="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet expedita optio eius quas eos tempore, repellat accusamus eveniet, ipsam quasi adipisci quae totam ipsa ea dolorem nobis at quod possimus.</p>
     </header>
     <section>
-        <form action="surveyresults.html" method="GET" id="survey-form">
+        <form action="surveyresults.html" method="GET" enctype="multipart/form-data" id="survey-form">
             <div>
                 <label for="name" id="name-label">Name:
                 <input type="text" name="name" id="name" minlength="7" placeholder="First and Last Name" required>
@@ -33,14 +34,43 @@
             </div>
 
             <div>
+                <label for="age" id="age-label">Age:
+                <input type="number" name="age" id="age" minlength="2" maxlength="3" min="9" max="120" placeholder="33" step="1">
+            </label>
+            </div>
+
+            <div>
+                <label for="date" id="date-label">Birthdate:
+                <input type="date" name="date" id="date" min="1940-10-17">
+            </label>
+            </div>
+
+            <div>
                 <label for="number" id="number-label">Phone Number:
                 <input type="number" name="number" id="number" min="1000000000" max="99999999999" minlength="10" maxlength="11" placeholder="9042217548">
             </label>
             </div>
 
             <div>
+                <label for="cell" id="cell-label">Cell Number:
+                <input type="tel" name="cell" id="cell" min="1000000000" max="99999999999" minlength="10" maxlength="11" placeholder="9040195684">
+            </label>
+            </div>
+
+            <div>
+                <label for="genre">Favorite Genre: </label>
+                <select name="genre" id="genre">
+                        <option value="Rap">Rap</option>
+                        <option label="Hip-Hop/R&B" value="Hip-Hop"></option>
+                        <option label="Instrumental" value="Instrumentals"></option>
+                        <option label="Freestyle" value="Freestyle"></option>
+
+                    </select>
+            </div>
+
+            <div>
                 <label for="dropdown" id="dropdown-label">Select Favorite Song: </label>
-                <select name="dropdown" id="dropdown">
+                <select name="dropdown" id="dropdown" multiple>
                     <option value="No song selected">[Select A Song]</option>
                     <option value="staywoke">Stay Woke</option>
                     <option value="vibe">Vibe with Me</option>
@@ -52,14 +82,73 @@
                 <textarea name="text" id="text" minlength="20" maxlength="1000" placeholder="Comments or suggestions?"></textarea>
             </div>
 
+            <div class="checkboxes">
+                <h3 style="padding:0;margin: 0 0 1% 0;">What type of song should be next?: </h3>
+
+                <div>
+                    <label for="rap">Rap</label>
+                    <input value="rap" type="checkbox" name="rap" id="rap">
+                </div>
+
+                <div>
+                    <label for="hip-hop">Hip-Hop <br>and/or R&B</label>
+                    <input value="hip-hop" type="checkbox" name="hip-hop" id="hip-hop">
+                </div>
+
+                <div>
+                    <label for="beat">Beat</label>
+                    <input value="beats" type="checkbox" name="beat" id="beat">
+                </div>
+
+                <div>
+                    <label for="freestyle">Freestyle</label>
+                    <input value="freestyles" type="checkbox" name="freestyle" id="freestyle">
+                </div>
+            </div>
+
+            <div class="radio">
+                <h3 style="padding:0;margin: 2% 0 0 0;">Gender: </h3>
+                <div>
+                    <label for="male ">Male</label>
+                    <input type="radio" name="gender" id="male" value="male">
+                </div>
+                <div>
+                    <label for="female">Female</label>
+                    <input type="radio" name="gender" id="female" value="female">
+                </div>
+                <div>
+                    <label for="changeling">Changling</label>
+                    <input type="radio" name="gender" id="changling" value="changling">
+                </div>
+            </div>
+
+            <div class="file">
+                <label for="file"><h4 style="padding:0;margin: 2% 0 0 0;">Attachment: </h4></label>
+                <input type="file" id="file" name="file"> </div>
+
+            <div class="url">
+                <label for="url"><h4 style="padding:0;margin: 2% 0 0 0;">URL: </h4></label>
+                <input type="url" name="url" id="url" placeholder="yourwebsite.com">
+            </div>
+
+            <div class="color">
+                <label for="color">Favorite Color: </label>
+                <input type="color" name="color" id="color">
+            </div>
+
+            <div class="hidden">
+                <input type="hidden" name="hidden" value="NINJA!" id="hidden" label="hidden">
+            </div>
+
+
             <!-- I stumbled on another way to make a Submit button lol! -->
-            <!--        <input type="submit" name="button" value="Submit" /> -->
+            <!--        <input type="submit " name="button " value="Submit " /> -->
             <button type="reset">Reset</button>
             <button type="submit" id="submit">Submit</button>
         </form>
     </section>
     <!-- FreeCodeCamp's code tester! -->
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js">
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js ">
     </script>
 </body>
 
