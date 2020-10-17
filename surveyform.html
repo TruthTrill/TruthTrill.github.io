@@ -4,11 +4,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Survey Form</title>
 </head>
 
 <body>
+    <header>
+        <h1 id="title">Truth Trill Music Survey Form</h1>
+        <p id="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet expedita optio eius quas eos tempore, repellat accusamus eveniet, ipsam quasi adipisci quae totam ipsa ea dolorem nobis at quod possimus.</p>
+    </header>
+    <section>
+        <form action="surveyresults.html" method="GET" id="survey-form">
+            <div>
+                <label for="name" id="name-label">Name:
+                <input type="text" name="name" id="name" minlength="7" placeholder="First and Last Name" required>
+            </label>
+            </div>
 
+            <div>
+                <label for="password" id="password-label">Pass:
+                <input type="password" name="password" id="password" minlength="7" placeholder="P@55w0rd!" required>
+            </label>
+            </div>
+
+            <div>
+                <label for="email" id="email-label">E-Mail:
+                <input type="email" name="email" id="email" minlength="7" placeholder="your@email.com" required>
+            </label>
+            </div>
+
+            <div>
+                <label for="number" id="number-label">Phone Number:
+                <input type="number" name="number" id="number" min="1000000000" max="99999999999" minlength="10" maxlength="11" placeholder="9042217548">
+            </label>
+            </div>
+
+            <div>
+                <label for="dropdown" id="dropdown-label">Select Favorite Song: </label>
+                <select name="dropdown" id="dropdown">
+                    <option value="No song selected">[Select A Song]</option>
+                    <option value="staywoke">Stay Woke</option>
+                    <option value="vibe">Vibe with Me</option>
+                    <option value="getback">Get Back</option>
+                    <option value="shadows">Shadows</option>
+                </select>
+            </div>
+            <div>
+                <textarea name="text" id="text" minlength="20" maxlength="1000" placeholder="Comments or suggestions?"></textarea>
+            </div>
+
+            <!-- I stumbled on another way to make a Submit button lol! -->
+            <!--        <input type="submit" name="button" value="Submit" /> -->
+            <button type="reset">Reset</button>
+            <button type="submit" id="submit">Submit</button>
+        </form>
+    </section>
+    <!-- FreeCodeCamp's code tester! -->
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js">
+    </script>
 </body>
 
 </html>

@@ -14,15 +14,16 @@ img {
     display: block;
 }
 
-#tribute-info {
-    background-image: linear-gradient(to bottom right, black, rgb(121, 0, 0));
-}
-
 figure {
     color: lightgrey;
     background-image: linear-gradient(to bottom left, yellow, rgb(231, 112, 0), darkred);
     margin: 0 0 0 0;
     padding: 3% 0 2% 0;
+}
+
+figcaption {
+    padding: 1%;
+    margin: 1%;
 }
 
 header {
@@ -54,13 +55,16 @@ nav ul {
     color: orangered;
 }
 
-#tribute-info {
+#footer-info {
     color: white;
     padding: 1rem;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    background-image: linear-gradient(to bottom right, black, rgb(121, 0, 0));
 }
 
+
+}
 body {
     height: 100%;
 }
