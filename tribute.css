@@ -95,6 +95,14 @@ nav ul {
     color: orangered;
 }
 
+.post {
+    padding: 10px 0 0 0;
+}
+
+.post-bottom {
+    padding: 20px 5px;
+}
+
 #footer-info {
     color: white;
     padding: 1rem;
