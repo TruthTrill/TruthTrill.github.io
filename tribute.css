@@ -4,6 +4,25 @@
     font-size: 62.5;
 }
 
+#blog-hambuger-menu {
+    display: none;
+}
+
+
+/* For Phone and Tablet */
+
+@media (max-width:900px) {
+    #blog {
+        display: none;
+    }
+    #members-table {
+        display: none;
+    }
+    #blog-hamburger-menu {
+        display: flex;
+    }
+}
+
 a {
     color: yellow
 }
