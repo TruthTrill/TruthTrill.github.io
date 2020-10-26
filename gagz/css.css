@@ -1,0 +1,156 @@
+A, A:ACTIVE, A:FOCUS, A:LINK, A:VISITED {
+	color: #F60;
+	text-decoration: underline;
+}
+
+A:HOVER {
+	color: #FF0;
+	text-decoration: none;
+}
+
+BODY {
+	scrollbar-3dlight-color: #000000;
+	scrollbar-arrow-color: #FF0000;
+	scrollbar-darkshadow-color: #000000;
+	scrollbar-face-color: #0b0000;
+	scrollbar-highlight-color: #ff9600;
+	scrollbar-shadow-color: #c72921;
+	scrollbar-track-color: #000000;
+}
+
+BODY, TD, FIELDSET {
+	cursor: default;
+}
+
+BODY, TD, INPUT, TEXTAREA, SELECT {
+	color: #F00;
+	font-weight: none;
+	text-decoration: none;
+	font-family: verdana;
+	font-size: 12px;
+}
+
+FIELDSET {
+	border-color: #C6D6DF;
+	border-style: solid;
+	border-width: 1;
+	padding: 3px 3px 3px 3px;
+}
+
+INPUT {
+	border-color: #ff9600 #ff9600 #ff9600 #ff9600;
+	text-indent: 2px;
+}
+
+/* The buttons used for bbCode styling in message post */
+INPUT.button {
+	background-color: #111111;
+	color: #FF0000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8px;
+}
+
+/* None-bold submit button */
+INPUT.liteoption {
+	background-color: #540000;
+	border-color: #ff4e00 #ff4e00 #ff4e00 #ff4e00;
+	font-weight: normal;
+}
+
+/* The main submit button option */
+INPUT.mainoption {
+	background-color: #540000;
+	border-color: #ff4e00 #ff4e00 #ff4e00 #ff4e00;
+	border-style: solid;
+	border-width: 1;
+}
+
+/* The text input fields background colour */
+INPUT.post, TEXTAREA.post, SELECT {
+	background-color: #010000;
+	border-color: #ff9600 #ff9600 #ff9600 #ff9600;
+	border-style: solid;
+	border-width: 1;
+	scrollbar-3dlight-color: #010000;
+	scrollbar-arrow-color: #FF0000;
+	scrollbar-darkshadow-color: #010000;
+	scrollbar-face-color: #0b0000;
+	scrollbar-highlight-color: #ff9600;
+	scrollbar-shadow-color: #c72921;
+	scrollbar-track-color: #010000;
+}
+
+TEXTAREA, SELECT {
+	background-color: #010000;
+	border-color: #d62b2b #d62b2b #d62b2b #d62b2b;
+	border-style: solid;
+	border-width: 1;
+	font-size: 10px;
+	scrollbar-3dlight-color: #010000;
+	scrollbar-arrow-color: #FF0000;
+	scrollbar-darkshadow-color: #010000;
+	scrollbar-face-color: #0b0000;
+	scrollbar-highlight-color: #ff9600;
+	scrollbar-shadow-color: #c72921;
+	scrollbar-track-color: #010000;
+}
+
+.asldk {
+	background-color: #c71e1e;
+}
+
+.contentBG {
+	background-color: #000000;
+	padding: 4px 4px 4px 4px;
+}
+
+.headBG1 {
+	background-color: #020000;
+	padding: 2px 2px 2px 2px;
+}
+
+.headerBG {
+	background-color: #000000;
+}
+
+.headerTopBottom {
+	background-color: #020000;
+	height: 5px;
+}
+
+.mainBG {
+	background-color: #d62b2b;
+}
+
+.spacerTable1 {
+	height: 7px;
+}
+
+.spacerTable2 {
+	height: 4px;
+}
+
+.spacerTable3 {
+	height: 10px;
+}
+
+.spacerTable4 {
+	height: 7px;
+}
+
+.textLogin {
+	font-size: 9px;
+}
+
+.textSize1 {
+	font-size: 10px;
+}
+
+.textSize2 {
+	font-size: 11px;
+}
+
+.title {
+	font-size: 11px;
+	font-weight: bold;
+}

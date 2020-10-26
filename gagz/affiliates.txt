@@ -1,0 +1,14 @@
+<marquee direction="right" align=right onMouseover="this.scrollAmount=0" onMouse>
+          <a target="_blank" href="http://shadowseen.com/"><img border="0" src="button.gif" width="88" height="31"></a> 
+          <a target="_blank" href="http://www.shadowseen.com"><img border="0" src="button.gif" width="88" height="31"></a> 
+          <a target="_blank" href="http://www.shadowseen.com"><img border="0" src="button.gif" width="88" height="31"></a> 
+          <a target="_blank" href="http://www.shadowseen.com"><img border="0" src="button.gif" width="88" height="31"></a></marquee><br>
+
+         <div align="center"> ----- [t e x t : l i n k s] -----<br>
+           [<a href="http://forums.aftervision.com">AFTERVISIONboards</a>] <A HREF="http://www.bizhostnet.com/" >ASP HOSTING</A>
+		   </div>
+          <br>
+<div align="center">------- [l i n k : m e] -------<br>
+          <a href="http://shadowseen.com/buttons.php"><img src="button.gif" width=88 border=0 hieght="31"></A>          <a href="http://shadowseen.com/buttons.php"><img src="button.gif" width=88 border=0 hieght="31"></A>          <a href="http://shadowseen.com/buttons.php"><img src="button.gif" width=88 border=0 hieght="31"></A>          <br>
+
+         </div>

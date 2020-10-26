@@ -1,0 +1,17 @@
+
+<link href="/home1/shadows9/public_html/css.css" rel="stylesheet" type="text/css" />
+
+<center>[<a href="http://shadowseen.com/index.php">main</a>]
+ [<a href="http://shadowseen.com/forum">forum</a>] 
+ [<a href="http://shadowseen.com/backgrounds.php">backgrounds</a>] 
+ [<a href="http://shadowseen.com/tutorials.php">tutorial</a>] 
+ [<a href="http://shadowseen.com/flash.php">flash</a>] 
+ [<a href="http://shadowseen.com/convo.php">conversations</a>] 
+ [<a href="http://shadowseen.com/fic">fics</a>] 
+ [<a href="http://shadowseen.com/chat">chat</a>] 
+ [<a href="http://shadowseen.com/oekaki">oekaki</a>] 
+ [<a href="http://www.cafeshops.com/andro">STORE!</a>] 
+ [<a href="http://shadowseen.com/top">top</a>] 
+ [<a href="http://shadowseen.com/faq">f.a.q</a>] 
+ [<a href="http://shadowseen.com/staff.php">staff</a>] 
+ <br><center>
