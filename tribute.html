@@ -8,15 +8,20 @@
     <meta name="robots" content="index,follow">
     <meta name="veiwport" content="width=device-width, initial-scale=1">
     <!-- Redirect to my main site after 30 seconds for now. -->
-    <meta http-equiv="refresh" content="60;https://cdmga.com" />
+    <meta http-equiv="refresh" content="6000;https://cdmga.com" />
     <link rel="icon" href="cdmga.com/favicon.ico" />
     <link rel="stylesheet" href="tribute.css" />
 </head>
 
 <body>
     <header>
+        <div class="menu-btn">
+            <div class="menu-btn__burger"></div>
+        </div>
         <center>
             <nav class="main-nav">
+
+
                 <ul>
                     <li><a href="tribute.html">Home</a></li>&nbsp;
                     <li><a href="surveyform.html">Survey</a></li>&nbsp;
@@ -167,6 +172,35 @@
             <!-- FreeCodeCamp's code tester! -->
             <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js">
             </script>
+            <script>
+                const menuBtn = document.querySelector('.menu-btn');
+
+                var menuOpen = false;
+                menuBtn.addEventListener('click', () => {
+                    if (!menuOpen) {
+                        menuBtn.classList.add('open');
+                        menuOpen = true;
+                    } else {
+                        menuBtn.classList.remove('open');
+                        menuOpen = false;
+                    }
+                });
+            </script>
+            <!-- <script>
+                const navBar = document.querySelector('.main-nav');
+
+                menuOpen = false;
+
+                menuBtn.addEventListener('click', () => {
+                    if (!menuOpen) {
+                        navBar.style.display = 'fixed';
+                        menuOpen = true;
+                    } else {
+                        navBar.style.display = 'none';
+                        menuOpen = false;
+                    }
+                });
+            </script>-->
 
 
         </section>
