@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="A survey of Truth Trill's Music" <script src="surveyform.js" async>
-    </script>
+    <meta name="description" content="A survey of Truth Trill's Music">
+    <script src="surveyform.js" async></script>
     <title>Survey Form</title>
 </head>
 
@@ -15,7 +15,9 @@
         <p id="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet expedita optio eius quas eos tempore, repellat accusamus eveniet, ipsam quasi adipisci quae totam ipsa ea dolorem nobis at quod possimus.</p>
     </header>
     <section>
-        <form action="surveyresults.html" method="GET" enctype="multipart/form-data" id="survey-form">
+        <!--      <form action="surveyresults.html" method="GET" enctype="multipart/form-data" id="survey-form">
+    -->
+        <form action="form.php" method="POST" enctype="multipart/form-data" id="survey-form">
             <div>
                 <label for="name" id="name-label">Name:
                 <input type="text" name="name" id="name" minlength="7" placeholder="First and Last Name" required>
