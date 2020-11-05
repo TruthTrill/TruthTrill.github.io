@@ -22,12 +22,11 @@ $dbUsername = "cdmgacom_form_project";
 $dbPassword = "form_project";
 $dbname = "cdmgacom_form_project";
 $dbconnect = mysqli_connect($host, $dbUsername, $dbPassword, $dbname);
-$sql =mysqli_query ($dbconnect, "insert into std_admission (ID, name, password, email, age, date, number, cell, genre, dropdown, text, checkbox, gender, file, url, color, hidden) values('', '$name', '$password', '$email', '$age', '$date', '$number', '$cell', '$genre' '$dropdown', '$text', '$checkbox', '$gender', '$file', '$url', '$color', '$hidden')");
+$sql =mysqli_query ($dbconnect, "insert into form (ID, name, password, email, age, date, number, cell, genre, dropdown, text, checkbox, gender, file, url, color, hidden) values('', '$name', '$password', '$email', '$age', '$date', '$number', '$cell', '$genre' '$dropdown', '$text', '$checkbox', '$gender', '$file', '$url', '$color', '$hidden')");
 if($sql) {
 	echo "Data inserted successfully!";
 	}
-	else {
-	echo "Failed to inser...";
+	else { 
+    echo "Failed to insert...";
   }
-}
-?>
+  ?>
