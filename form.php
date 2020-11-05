@@ -17,7 +17,7 @@ if(isset($_POST['submit'])) {
   $color = $_POST['color'];
   $hidden = $_POST['hidden'];
 
-$host = "cdmga.com";
+$host = "184.154.47.82";
 $dbUsername = "cdmgacom_form_project";
 $dbPassword = "form_project";
 $dbname = "cdmgacom_form_project";
