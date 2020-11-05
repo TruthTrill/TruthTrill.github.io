@@ -1,6 +1,3 @@
-<!DOCTYPE php>
-
-
 <?php
 if(isset($_POST['submit'])) {
   $name = $_POST['name'];
@@ -19,7 +16,7 @@ if(isset($_POST['submit'])) {
   $url = $_POST['url'];
   $color = $_POST['color'];
   $hidden = $_POST['hidden'];
-}
+
 $host = "cdmga.com";
 $dbUsername = "cdmgacom_form_project";
 $dbPassword = "form_project";
@@ -31,5 +28,6 @@ if($sql) {
 	}
 	else {
 	echo "Failed to inser...";
+  }
 }
 ?>
