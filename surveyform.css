@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
+html {
+    margin: auto;
+    text-align: center;
+    background: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/bab0c62e-d92f-46d8-bbf6-8ae3d3388574/dc6r8kj-4c9c701f-2d4d-4653-9c23-46aa4b6068a3.jpg/v1/fill/w_1024,h_1024,q_75,strp/truth_trill_thrice_great_album_art_by_andro140_dc6r8kj-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD0xMDI0IiwicGF0aCI6IlwvZlwvYmFiMGM2MmUtZDkyZi00NmQ4LWJiZjYtOGFlM2QzMzg4NTc0XC9kYzZyOGtqLTRjOWM3MDFmLTJkNGQtNDY1My05YzIzLTQ2YWE0YjYwNjhhMy5qcGciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.a-hImFyv6fQyH1QLWWiaVKEz2kdJgZ4bSNktPFa_zi0) no-repeat center fixed;
+    background-size: cover;
+    background-image: hsl(240, 40%, 50%);
+}
+
+h1 {
+    color: lightgray;
+    padding-top: 3px;
+    font-family: 'Josefin Sans', sans-serif;
+    background-image: linear-gradient(90deg, rgba(2, 0, 36, .5) 0%, rgba(9, 9, 121, .2) 32%, black 100%);
+}
+
+p {
+    color: white;
+    background-image: linear-gradient(90deg, rgba(2, 0, 36, .5) 0%, rgba(9, 9, 121, .2) 32%, black 100%);
+}
+
+div {
+    color: aqua;
+}
+
+form {
+    font-family: 'Times New Roman', Times, serif;
+    vertical-align: center;
+    background-image: linear-gradient(90deg, rgba(2, 0, 36, .5) 0%, rgba(9, 9, 121, .2) 32%, black 100%);
+    color: #c9d4dd;
+    display: flex;
+    justify-content: center;
+}
+
+#submit {
+    background-color: green;
+    color: white;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    border: darkgreen solid 1px;
+    margin: 10px, 20px, 10px, 20px;
+    padding: 5px, 2px, 5px, 2px;
+}
+
+#reset {
+    background-color: yellow;
+    color: black;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    border: gold solid 1px;
+    margin: 10px, 20px, 10px, 20px;
+    padding: 5px, 2px, 5px, 2px;
+}
+
+A,
+A:ACTIVE,
+A:FOCUS,
+A:LINK,
+A:VISITED {
+    color: #2D617D;
+    text-decoration: underline;
+}
+
+A:HOVER {
+    color: #22495E;
+    text-decoration: none;
+}
+
+.left {
+    flex: start;
+    align-content: left;
+}
+
+.right {
+    flex: end;
+}
+
+.submit {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
